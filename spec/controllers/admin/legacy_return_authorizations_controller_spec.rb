@@ -1,4 +1,4 @@
-describe Spree::Admin::LegacyReturnAuthorizationsController do
+describe Spree::Admin::LegacyReturnAuthorizationsController, type: :controller do
   stub_authorization!
 
   # Regression test for #1370 #3
@@ -12,15 +12,15 @@ describe Spree::Admin::LegacyReturnAuthorizationsController do
         id: legacy_return_authorization.to_param,
         order_id: legacy_return_authorization.order.to_param,
         legacy_return_authorization: {
-          :reason => new_reason,
-        },
+          reason: new_reason,
+        }
       }
     end
 
     before { subject }
 
     it "redirects to legacy return authorizations index" do
-      response.should redirect_to(spree.admin_order_legacy_return_authorizations_path(legacy_return_authorization.order))
+      expect(response).to redirect_to(spree.admin_order_legacy_return_authorizations_path(legacy_return_authorization.order))
     end
 
     it "updates the reason" do
