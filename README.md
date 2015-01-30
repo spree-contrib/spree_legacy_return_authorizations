@@ -57,5 +57,3 @@ Copyright (c) 2011-2015 [Bonobos, Inc.][2], and other [contributors][3], release
 [2]: https://github.com/bonobos
 [3]: https://github.com/spree-contrib/spree_legacy_return_authorizations/contributors
 [4]: https://github.com/spree-contrib/spree_legacy_return_authorizations/blob/master/LICENSE.md
-
-Copyright (c) 2014-2015 Bonobos, Inc. and contributors, released under the New BSD License
