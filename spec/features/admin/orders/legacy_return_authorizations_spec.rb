@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe "legacy return authorizations" do
   stub_authorization!
 
@@ -22,5 +20,4 @@ describe "legacy return authorizations" do
     click_link "Edit"
     lambda { click_button "receive" }.should_not raise_error
   end
-
 end

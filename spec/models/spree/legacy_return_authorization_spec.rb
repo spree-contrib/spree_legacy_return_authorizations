@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe Spree::LegacyReturnAuthorization do
   let(:stock_location) { Spree::StockLocation.create(:name => "test") }
   let(:order) { FactoryGirl.create(:shipped_order) }

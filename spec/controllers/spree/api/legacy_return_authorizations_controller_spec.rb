@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 module Spree
   describe Api::LegacyReturnAuthorizationsController do
     render_views

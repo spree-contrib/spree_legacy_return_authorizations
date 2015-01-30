@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe Spree::Admin::LegacyReturnAuthorizationsController do
   stub_authorization!
 
