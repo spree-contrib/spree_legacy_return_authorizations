@@ -1,4 +1,4 @@
-Copyright (c) 2014 Bonobos, Inc
+Copyright (c) 2014-2015 Bonobos, Inc. and contributors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
