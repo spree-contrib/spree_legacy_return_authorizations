@@ -8,9 +8,11 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.3'
 
   s.authors    = ['Richard Nuno', 'Jordan Brough']
+  s.homepage   = 'https://github.com/spree-contrib/spree_legacy_return_authorizations'
+  s.license    = 'BSD-3'
 
-  #s.files       = `git ls-files`.split("\n")
-  #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
+  s.files        = `git ls-files`.split("\n")
+  s.test_files   = `git ls-files -- spec/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
