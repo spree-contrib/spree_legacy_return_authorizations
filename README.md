@@ -1,5 +1,8 @@
 # Spree Legacy Return Authorizations
 
+[![Build Status](https://travis-ci.org/spree-contrib/spree_legacy_return_authorizations.svg?branch=master)](https://travis-ci.org/spree-contrib/spree_legacy_return_authorizations)
+[![Code Climate](https://codeclimate.com/github/spree-contrib/spree_legacy_return_authorizations/badges/gpa.svg)](https://codeclimate.com/github/spree-contrib/spree_legacy_return_authorizations)
+
 This is an extension for users migrating from legacy versions of Spree (2.3.x and prior) which had a different representation of and handling for return authorizations.
 
 When upgrading from a prior version of Spree to Spree 2.4.x, simply include this extension in your application's Gemfile and your old data will be preserved in separate tables (e.g., "spree_legacy_return_authorizations") and columns (e.g. "spree_inventory_units.legacy_return_authorization_id").
