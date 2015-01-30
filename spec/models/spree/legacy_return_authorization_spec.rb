@@ -48,6 +48,7 @@ describe Spree::LegacyReturnAuthorization do
       end
 
       it "should update order state" do
+        allow(order).to receive(:awaiting_return?) { false }
         order.should_receive(:authorize_return!)
         legacy_return_authorization.add_variant(variant.id, 1)
       end
